@@ -6,7 +6,7 @@ const cookieParser = require("cookie-parser");
 
 const app = express();
 
-app.listen(4000, (err) => {
+app.listen(80, (err) => {
   if (err) {
     console.log(err);
   } else {
